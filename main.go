@@ -8,8 +8,8 @@ import (
 )
 
 func main() {
-	os.Setenv("SLACKBOT_TOKEN_ID", "xoxb-3150876980551-3158832191414-0KHeSzxaJ5mvbCqGFPlisYAA")
-	os.Setenv("SLACKBOT_CHANNEL_ID", "C034ERSVAEB")
+	os.Setenv("SLACKBOT_TOKEN_ID", "xxxx-111111111111-1111111111111-11111111111111111111111")
+	os.Setenv("SLACKBOT_CHANNEL_ID", "11111111111")
 	api := slack.New(os.Getenv("SLACKBOT_TOKEN_ID"))
 	channelArr := []string{os.Getenv("SLACKBOT_CHANNEL_ID")}
 	fileArr := []string{"Sachin_Gold_Price.ipynb"}
